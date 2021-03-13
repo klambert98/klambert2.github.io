@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+:root {
+    --color-primary: #9e1b1b;
+    --color-secondary: #D1AA24;
+    --color-tertiary: #c4c4c4;
+    --color-dark: #000000;
+    --color-light: #fff;
+    --font-primary: "PT Sans";
+    --font-secondary: "Lato";
+}
+
+nav {
+    /* Styling */
+    padding-top: 2em;
+    /* Mechanics */
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+#links {
+    float: right;
+    margin-right: 5%;
+}
+
+#links a {
+    /* Styling */
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+    line-height: 108px;
+    padding: 0 1em;
+    /* Mechanics */
+    transition: all 0.5s ease;
+}
+
+#logo {
+    height: 10vh;
+    float: left;
+    margin-left: 5%;
+    padding: 2vh 3vw;
+}
+
+#links :hover {
+    /* Styling */
+    color: var(--color-dark);
+    /* Mechanics */
+    transition: all 0.5s ease;
+}
+
+footer {
+    display: block;
+    background: var(--color-primary);
+    color: var(--color-light);
+    padding-top: 25em;
+    width: 100%;
+    margin-top: -8em;
+    padding-bottom: 5em;
+    font-size: large;
+}
+
+footer a {
+    color: var(--color-light);
+    margin: 1.5em 1em;
+    padding: .5em 1em;
+    border-radius: .25em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    /* Styling */
+    color: var(--color-dark);
+    /* Mechanics */
+    transition: all 0.3s ease;
+}

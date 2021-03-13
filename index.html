@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-	<!--  Meta  -->
-	<meta charset="UTF-8">
+    <!--  Meta  -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Kayla Lambert Design</title>
+    <title>Kayla Lambert Design</title>
 
-	<!-- Favicons -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -21,97 +21,100 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <!-- Library Styling -->
 
-	<!--  Styles  -->
-	<link rel="stylesheet" href="./css/styles.css">
+    <!--  Styles  -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/nav_footer.css">
 </head>
 
 
 <body>
 
-	<header>
-		<nav>
-			<a href="./index.html"><img id="logo" src="./img/logo.png" alt="logo"></a>
-			<a href="#">About</a>
-			<a href="./pages/googledoodle.html">Google Doodle</a>
-			<a href="./pages/contact.html">Contact</a>
-		</nav>
-	</header>
+    <div id="nav-placeholder"></div>
 
-	<main>
-		<article id="heroBanner">
-			<h1>Hiya! I'm a future EWU grad with a
-				passion for software development and
-				web design.</h1>
-			<div id="picAndName">
-				<img id="selfie" src="./img/me.png" alt="My face">
-				<div id="words">
-					<h3>Kayla Lambert</h3>
-					<h5>Web Designer In-Training</h5>
-				</div>
-			</div>
-		</article>
+    <main>
+        <article id="heroBanner">
+            <h1>Hi there! I'm Kayla.</h1>
+            <div id="picAndName">
+                <img id="selfie" src="./img/me.svg" alt="My face">
+                <div id="words">
+                    <h3>Kayla Lambert</h3>
+                    <h5>Coder, Designer, Web Developer</h5>
+                </div>
+            </div>
+        </article>
 
-		<article id="projects">
-			<section class="large">
-				<img src="http://placehold.it/200" alt="project pic">
-				<h2>Mission Community Outreach Center</h2>
-				<h4>Software Design and Database Management</h4>
-			</section>
-			<section class="small">
-				<img src="http://placehold.it/200" alt="project pic">
-				<h2>Open Source Automotive POS</h2>
-				<h4>Software Design and Database Management</h4>
-			</section>
-			<section class="small">
-				<img src="http://placehold.it/200" alt="project pic">
-				<h2>Northwest Automotive Website Overhaul</h2>
-				<h4>Front-End Web Design</h4>
-			</section>
-			<section class="large">
-				<img src="http://placehold.it/200" alt="project pic">
-				<h2>Computer Security Website and Quiz</h2>
-				<h4>Full Stack Web Design</h4>
-			</section>
-		</article>
+        <section id="about">
+            <h1>Nice to meet you!</h1>
+            <p>I'm Kayla, a junior software and web developer. I've been finding my place here in this tech filled world and ended up falling in love with web design. I'm currently working on growing my portfolio and learning more and more about web development.
+            </p>
 
-		<article id="experience">
-			<h1>My Experience</h1>
-			<h3>I'll be graduating Spring of 2020 with my Bachelors in
-				Computer Science and some background in Management
-				Information Systems as well as UX and Web Design.
-			</h3>
-			<section id="work">
-				<section>
-					<h2>FAST Enterprises</h2>
-					<h4>Implementation Consultant Intern</h4>
-					<h5>June 2019 - September 2019</h5>
-				</section>
-				<section>
-					<h2>Eastern Washington University</h2>
-					<h4>Tutor & Teaching Assistant</h4>
-					<h5>Fall 2018 - Current</h5>
-				</section>
-				<section>
-					<h2>work</h2>
-					<h4>title</h4>
-					<h5>time worked</h5>
-				</section>
-			</section>
-		</article>
-	</main>
+        </section>
 
-	<footer>
-		<section id="socials">
-			<a href="https://github.com/klambert2">Github</a>
-			<a href="https://www.linkedin.com/in/kayla-lambert-356a0911a/">LinkedIn</a>
-			<a href="mailto:k.lambert98@yahoo.com">Email</a>
-		</section>
-		<p>@Copyright 2020</p>
-	</footer>
+        <section id="skills-div">
+            <div class="skill">
+                <h2>Designer</h2>
+                <h5>Things I'm Good At</h5>
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Illustration</li>
+                <li>InDesign</li>
+                <h5>Things I'm Learning</h5>
+                <li>UX/UI Design</li>
+                <li>Marvel</li>
+            </div>
+            <div class="skill">
+                <h2>Coder</h2>
+                <h5>Things I'm Good At</h5>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Git</li>
+                <h5>Things I'm Learning</h5>
+                <li>Bootstrap</li>
+                <li>Vue</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+            </div>
+        </section>
 
-	
-	<!-- Scripts -->
-	<script src="./js/scripts.js"></script>
+        <article id="project-history">
+            <h1>Current Projects</h1>
+            <section id="projects">
+                <section class="project" id="nw-tire">
+                    <h2>Northwest Automotive Website Overhaul</h2>
+                    <h4>Front-End Web Design</h4>
+                    <a href="http://northwestautomotivecenter.infinityfreeapp.com/" target="_blank"><button>Visit Site</button></a>
+                </section>
+            </section>
+        </article>
+
+        <article id="experience">
+            <h1>Work Experience</h1>
+            <section id="work">
+                <section class="exp">
+                    <h2>Korber Supply-Chain</h2>
+                    <h4>Solutions Consultant</h4>
+                    <h5>July 2020 - Present</h5>
+                </section>
+                <section class="exp">
+                    <h2>FAST Enterprises</h2>
+                    <h4>Implementation Consultant Intern</h4>
+                    <h5>June 2019 - September 2019</h5>
+                </section>
+                <section class="exp">
+                    <h2>Eastern Washington University</h2>
+                    <h4>Tutor & Teaching Assistant</h4>
+                    <h5>Fall 2018 - June 2020</h5>
+                </section>
+            </section>
+        </article>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="./js/scripts.js"></script>
 
 </body>
 
